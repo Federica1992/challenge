@@ -2,7 +2,7 @@
 
 ## **Esercizio 1**
 
-Script che date due stringe ed una cartella, verifica se il nome di ogni file presente all'interno della stessa contiene la prima stringa. Se lo contiene, rinomina il file sostituendo la prima stringa alla seconda.
+Script che richiede tre parametri: due stringe ed una cartella. Verifica se il nome di ogni file presente all'interno della cartella contiene la prima stringa. Se lo contiene, rinomina il file sostituendo la prima stringa alla seconda.
 
 Comando:
 ```
