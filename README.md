@@ -18,7 +18,7 @@ Comando:
 python3 exercise2.py --folder {folder}
 ```
 
-## **Esercizio 2**
+## **Esercizio 3**
 
 Script che permette di aggiungere un cronjob con un comando attraverso l'utilizzo di crontab. Il comando utilizza rsync per effettuare il backup di una cartella specifica (/home/user) e inviare lo stesso in ssh ad un server remoto.
 In particolare: il backup viene effettuato ogni domenica alle 23:00 ed inviato a user@192.168.1.100
