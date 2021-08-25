@@ -1,0 +1,1 @@
+targetNode ansible_host=192.168.1.72 ansible_user=federica ansible_ssh_private_key_file=~/.ssh/id_rsa 

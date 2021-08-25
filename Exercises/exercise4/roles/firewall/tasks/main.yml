@@ -1,0 +1,9 @@
+# Firewall Configuration
+    - name: Disable SELinux
+      selinux: state=disabled
+
+    - name: Configure Firewall
+      firewalld: zone=public service=http permanent=yes state=enabled
+ 
+    - name: Reload Firewall
+      systemd: name=firewalld state=reloaded

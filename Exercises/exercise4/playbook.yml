@@ -1,0 +1,14 @@
+- hosts: targetNode
+  gather_facts: False
+  become: true
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  vars_files:
+    - vars/default.yml
+    - vars/secrets.yml
+  roles:
+    - apache
+    - php
+    - mariadb
+    - wordpress
+    - firewall
